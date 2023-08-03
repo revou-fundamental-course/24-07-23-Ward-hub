@@ -1,0 +1,114 @@
+/* HEADER SECTION STYLING */
+#headerNavigation {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+#headerTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#subtitle {
+    color: #61677A;
+}
+
+/* MAIN SECTION STYLING */
+#callUs {
+    display: flex;    
+    gap: 16px;
+    }
+
+#article {
+    flex-basis: 60%;
+    color:#61677A;
+    margin-top: 10px;
+    
+}
+
+#form {
+    flex-grow: 1;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #D8D9DA;
+    }
+
+#hubungi {
+    color: #61677A;
+}
+
+#package {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: #D8D9DA;
+}
+
+#closing {
+    justify-content: center;
+    text-align: center;
+}
+
+#penutup {
+    justify-content: center;
+    text-align: center;
+}
+
+#gambar {
+    margin-left: 50px;
+}
+
+.keteranganGambar {
+    margin-left: 150px;
+}
+
+.navigation {
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    text-emphasis-color: black;
+}
+
+.gambarPackage {
+    vertical-align: center;
+}
+
+#name, #email, #interest, #submit {
+    width: 90%;
+    padding: 12px;
+}
+
+#callToAction {
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #D8D9DA;
+}
+
+* {
+    box-sizing: border-box
+}
+.image-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.imageslider {
+  width: 100%
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
